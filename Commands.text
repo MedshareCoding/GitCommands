@@ -1,0 +1,28 @@
+
+git status
+---------------------------------
+From Working Dir To Staging Area:
+--------------------------------- 
+git add file_name
+
+----------------------------
+- git reset head file_name -
+----------------------------
+
+--------------------------------
+From Staging Area to Local Repo:
+--------------------------------
+git commit -m "Message" 
+
+-------------------------------
+From Local Repo To Remote Repo:
+-------------------------------
+git remote -v  
+git branch
+git push remote_name branch_name
+
+
+-----------------------------
+Pull New Changes From Remote:
+-----------------------------
+git pull remote_name 
