@@ -26,3 +26,5 @@ git push remote_name branch_name
 Pull New Changes From Remote:
 -----------------------------
 git pull remote_name 
+
+git restore --staged file_name
