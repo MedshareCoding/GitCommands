@@ -1,5 +1,5 @@
-
 git status
+
 ---------------------------------
 From Working Dir To Staging Area:
 --------------------------------- 
@@ -26,5 +26,31 @@ git push remote_name branch_name
 Pull New Changes From Remote:
 -----------------------------
 git pull remote_name 
+
+
+Git Configurations:
+-------------------
+git config -l 
+git help config 
+
+git config --globel user.name "name"
+git config --globel user.email "email"
+git config --globel --unset user.name
+git config --globel edit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 git restore --staged file_name
