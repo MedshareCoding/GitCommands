@@ -1,13 +1,22 @@
+
+----------------
+Genral Commands:
+----------------
 git status
+
+--------------
+Aliases Names:
+--------------
+git config --global alias.alias_name command_name
+git config --global --edit
 
 ---------------------------------
 From Working Dir To Staging Area:
 --------------------------------- 
 git add file_name
 
-----------------------------
-- git reset head file_name -
-----------------------------
+git reset head file_name 
+git restore --staged file_name
 
 --------------------------------
 From Staging Area to Local Repo:
@@ -39,18 +48,25 @@ git config --globel --unset user.name
 git config --globel edit
 
 
+------------------------------------
+Generate And Test Github Public Key:
+------------------------------------
+ssh-keygen -t rsa -b 4096 -C "Email"
+ssh -T git@github.com
 
 
+----------------------------------------
+Create Repository From Existing Project:
+----------------------------------------
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:AbdelrahmanScripts/course.git
+git push -u origin main
 
 
+git remote add origin git@github.com:AbdelrahmanScripts/course.git
+git branch -M main
+git push -u origin main
 
-
-
-
-
-
-
-
-
-
-git restore --staged file_name
